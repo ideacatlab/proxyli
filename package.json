@@ -1,0 +1,25 @@
+{
+  "name": "proxyli",
+  "displayName": "proxyli",
+  "description": "Language extension for custom mentained proxy list .txt files.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "proxylist",
+      "aliases": ["proxylist", "proxylist"],
+      "extensions": [".txt"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "proxylist",
+      "scopeName": "",
+      "path": "./syntaxes/proxylist.tmLanguage.json"
+    }]
+  }
+}
