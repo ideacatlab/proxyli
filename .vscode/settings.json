@@ -1,0 +1,97 @@
+{
+    "editor.tabSize": 4,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "git.autofetch": true,
+    "indentRainbow.includedLanguages": [],
+    "editor.fontFamily": "'JetBrainsMono', 'monospace', monospace",
+    "editor.cursorStyle": "line-thin",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "eslint.format.enable": true,
+    "eslint.options": {},
+    "eslint.codeAction.showDocumentation": {
+        "enable": true
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": false,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.semanticTokenColorCustomizations": {
+        "[Default Dark+]": {
+            "enabled": true,
+            "rules": {
+                "type": "#26A69A",
+                "namespace": "#00897B",
+                "function": "#00BCD4",
+                "variable": "#42A5F5",
+                "number": "#90A4AE",
+                "string": {
+                    "foreground": "#90A4AE",
+                    "italic": true
+                },
+                "comment": {
+                    "foreground": "#546E7A",
+                    "fontStyle": "italic"
+                },
+                "variable.readonly.defaultLibrary": "#A89F9B",
+                "macro": "#7E57C2",
+                "keyword": "#7986CB",
+                "operator": "#9575CD",
+                "type.modification": "#00897B",
+                "punctuation": "#A1887F"
+            }
+        }
+    },
+    "prettier.singleQuote": true,
+    "prettier.useTabs": true,
+    "prettier.printWidth": 100,
+    "workbench.startupEditor": "none",
+    "prettier.jsxSingleQuote": true,
+    "workbench.colorTheme": "Default Dark+",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.associations": {
+        "*.txt": "TXT",
+        "proxylist.txt": "proxylist"
+    },
+    "files.autoSave": "afterDelay",
+    "[txt]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 4,
+        "editor.insertSpaces": false,
+        "files.autoSave": "afterDelay",
+        "editor.foldingStrategy": "auto"
+    },
+    "[proxylist]": {
+        "editor.defaultFormatter": "ideacatlab.proxyli",
+        "editor.tabSize": 4,
+        "editor.insertSpaces": false,
+        "files.autoSave": "afterDelay",
+        "editor.foldingStrategy": "auto",
+        "editor.semanticTokenColorCustomizations": {
+            "[Default Dark+]": {
+                "enabled": true,
+                "rules": {
+                    "delimiter": "#A1887F", // Color for separators like ':'
+                    "port": "#7986CB", // Color for keys like '38.154.227.167'
+                    "value": "#42A5F5", // Color for values like '5868'
+                    "username": "#00BCD4", // Color for values like 'kmijebln'
+                    "password": "#26A69A" // Color for values like 'xsxzdw2h8agh'
+                }
+            }
+        }
+    },
+    "search.exclude": {
+        "storage/app/*": true,
+        "storage/cache/*": true
+    },
+    "liveServer.settings.CustomBrowser": "firefox"
+}

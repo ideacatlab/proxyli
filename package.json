@@ -1,25 +1,45 @@
 {
-  "name": "proxyli",
-  "displayName": "proxyli",
-  "description": "Language extension for custom mentained proxy list .txt files.",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.84.0"
-  },
-  "categories": [
-    "Programming Languages"
-  ],
-  "contributes": {
-    "languages": [{
-      "id": "proxylist",
-      "aliases": ["proxylist", "proxylist"],
-      "extensions": [".txt"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "proxylist",
-      "scopeName": "",
-      "path": "./syntaxes/proxylist.tmLanguage.json"
-    }]
-  }
+    "name": "proxyli",
+    "displayName": "proxyli",
+    "description": "Language extension for custom mentained proxy list .txt files.",
+    "version": "0.0.1",
+    "publisher": "ideacatlab",
+    "private": true,
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ideacatlab/proxyli"
+    },
+    "engines": {
+        "vscode": "^1.84.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [],
+    "main": "./out/extension.js",
+    "contributes": {
+        "languages": [
+            {
+                "id": "semanticLanguage",
+                "extensions": [
+                    ".txt"
+                ]
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "lint": "eslint \"src/**/*.ts\"",
+        "watch": "tsc -watch -p ./"
+    },
+    "devDependencies": {
+        "@types/node": "^16.18.34",
+        "@types/vscode": "^1.73.0",
+        "@typescript-eslint/eslint-plugin": "^6.7.0",
+        "@typescript-eslint/parser": "^6.7.0",
+        "eslint": "^8.26.0",
+        "typescript": "^5.2.2"
+    }
 }

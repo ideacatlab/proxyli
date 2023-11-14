@@ -1,0 +1,10 @@
+38.154.226.167:5468:faguebln:xs5e54h7uagh
+185.199.249.156:4492:faguebln:xs5e54h7uagh
+185.199.128.220:4300:faguebln:xs5e54h7uagh
+185.199.234.45:4382:faguebln:xs5e54h7uagh
+188.74.270.207:4286:faguebln:xs5e54h7uagh
+188.74.683.10:8479:faguebln:xs5e54h7uagh
+188.74.270.21:6400:faguebln:xs5e54h7uagh
+45.155.78.129:8433:faguebln:xs5e54h7uagh
+154.95.76.199:6393:faguebln:xs5e54h7uagh
+45.94.77.66:8130:faguebln:xs5e54h7uagh
